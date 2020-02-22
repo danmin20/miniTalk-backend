@@ -1,0 +1,20 @@
+{
+  "name": "miniTalk-backend",
+  "version": "1.0.0",
+  "description": "Back-end for Mini Talk",
+  "repository": "https://github.com/danmin20/miniTalk-backend.git",
+  "author": "Lee Jeong Min <danmin20@khu.ac.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "prisma": "^1.34.10",
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node server.ts"
+  }
+}
